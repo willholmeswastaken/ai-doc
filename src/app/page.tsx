@@ -43,6 +43,7 @@ export default function Completion() {
           <div className="mx-auto w-full max-w-md py-2 flex flex-col gap-y-4">
             <div className="bg-white rounded-md p-4">
               <h1 className='text-xl'>Get an instant response to symptoms.</h1>
+              <p className='text-md text-red-600 font-bold'>DISCLAIMER: THIS IS A PRODUCT BUILT FOR FUN AND THE RESPONSES SHOULD NOT BE TAKEN AS MEDICAL ADVICE. IF YOU ARE UNWELL SEEK PROFESSIONAL MEDICAL ATTENTION.</p>
             </div>
             <form className='flex flex-col gap-y-4' onSubmit={handleSubmit}>
               <div className="flex flex-col bg-white rounded-md p-4">
